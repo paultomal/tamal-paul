@@ -62,9 +62,16 @@ const Layout = ({ children }) => {
                         >
                             <button
                                 onClick={() => handleNavClick('#home')}
-                                className="text-xl font-bold gradient-text hover:opacity-80 transition-opacity"
+                                className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
                             >
-                                Tamal Paul
+                                <img 
+                                    src="/logos/file.svg" 
+                                    alt="Tamal Paul Logo" 
+                                    className="w-8 h-8 object-contain"
+                                />
+                                <span className="text-xl font-bold gradient-text">
+                                    Tamal Paul
+                                </span>
                             </button>
                         </motion.div>
 
